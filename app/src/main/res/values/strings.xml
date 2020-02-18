@@ -2,6 +2,7 @@
     <string name="app_name">Oga Handy</string>
     <string name="login">Login</string>
     <string name="email_address">Email address</string>
+    <string name="full_name">Full name e.g Jim Ross</string>
     <string name="login_prompt">Enter your login credentials</string>
     <string name="dont_account">Don\'t have an account ? </string>
     <string name="sign_up">Sign up</string>
@@ -11,9 +12,11 @@
     <string name="phone_number">Phone number</string>
     <string name="go_back">Go back</string>
     <string name="confirm_password">Confirm Password</string>
+    <string name="activation_code">Activation Code</string>
     <string name="recover_password">Recover password</string>
     <string name="forgot_password">Forgot password ?</string>
     <string name="request_artisan">Request a Handyman</string>
+    <string name="resend_activation">Resend activation code</string>
     <string name="my_jobs">My jobs</string>
     <string name="activate_account">Activate your Account</string>
     <string name="activate_account_instruction">You should receive an SMS shortly, Please enter the code provided in the text prompt to complete activation</string>

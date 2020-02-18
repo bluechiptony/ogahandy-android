@@ -2,6 +2,7 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:padding="50dp"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".views.ActivateAccountActivity">
@@ -20,64 +21,71 @@
 
     </androidx.appcompat.widget.AppCompatImageView>
     <TextView
-        android:id="@+id/login_text"
+        android:id="@+id/activate_prompt"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:layout_constraintTop_toBottomOf="@+id/logo"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        android:text="@string/login_prompt"
+        android:text="@string/activate_account"
         android:layout_marginTop="20dp"
         >
 
     </TextView>
 
+    <TextView
+        android:id="@+id/login_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/activate_prompt"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:text="@string/activate_account_instruction"
+        android:layout_marginTop="20dp"
+        >
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/tooLong"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorPrimary"
+        app:layout_constraintTop_toBottomOf="@+id/login_text"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:text="@string/resend_activation"
+        android:layout_marginTop="10dp"
+        >
+
+    </TextView>
     <LinearLayout
         android:id="@+id/form_layout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        app:layout_constraintTop_toBottomOf="@id/login_text"
+        app:layout_constraintTop_toBottomOf="@id/tooLong"
         android:layout_marginTop="20dp"
 
         >
         <EditText
-            android:id="@+id/emailAddress"
-            android:inputType="textEmailAddress"
+            android:id="@+id/activationCode"
+            android:inputType="text"
 
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:hint="@string/email_address"
-            android:layout_marginBottom="10dp"
-
-            android:importantForAutofill="no">
-        </EditText>
-        <EditText
-            android:id="@+id/password"
-            android:inputType="textPassword"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:hint="@string/password"
+            android:hint="@string/activation_code"
             android:layout_marginBottom="10dp"
             android:importantForAutofill="no">
         </EditText>
 
-        <TextView
-            android:layout_gravity="end"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="10dp"
-            android:text="@string/forgot_password"
-            android:textSize="12sp"
-            >
-
-        </TextView>
 
         <Button
+            android:id="@+id/activate"
             android:layout_width="match_parent"
             android:background="@color/colorPrimary"
             android:layout_height="wrap_content"
-            android:text="@string/login"
+            android:text="@string/activate_account"
             android:textColor="@color/white"
             android:textAllCaps="true"
             android:layout_marginTop="30dp"
@@ -100,16 +108,17 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/dont_account"
+            android:text="@string/dont_need"
             android:layout_marginEnd="10dp"
             >
 
         </TextView>
 
         <TextView
+            android:id="@+id/goBack"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/sign_up"
+            android:text="@string/go_back"
 
             >
 

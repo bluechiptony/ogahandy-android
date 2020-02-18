@@ -15,6 +15,7 @@ class SignUpActivity : AppCompatActivity() {
 
     private var emailAddress:EditText? = null
     private var phoneNumber:EditText? = null
+    private var fullName:EditText? = null
     private var signUp:Button? = null
     private var goBack:TextView? = null
 
@@ -36,9 +37,13 @@ class SignUpActivity : AppCompatActivity() {
         }
         phoneNumber = findViewById(R.id.phoneNumber)
         emailAddress = findViewById(R.id.emailAddress)
+        fullName = findViewById(R.id.fullName)
         signUp = findViewById(R.id.signUp)
 
         goBack = findViewById(R.id.goBack)
+
+
+        signUp!!.setOnClickListener { changeActivity(ActivateAccountActivity()) }
 
         goBack!!.setOnClickListener{
             finish()

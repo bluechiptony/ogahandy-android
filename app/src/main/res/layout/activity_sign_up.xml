@@ -59,6 +59,17 @@
 
         >
         <EditText
+            android:id="@+id/fullName"
+            android:inputType="text"
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="@string/full_name"
+            android:layout_marginBottom="10dp"
+
+            android:importantForAutofill="no">
+        </EditText>
+        <EditText
             android:id="@+id/emailAddress"
             android:inputType="textEmailAddress"
 
