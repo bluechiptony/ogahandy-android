@@ -4,9 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:padding="50dp"
-    tools:context=".views.LoginActivity">
-
+    tools:context=".views.ActivateAccountActivity">
 
     <androidx.appcompat.widget.AppCompatImageView
         android:id="@+id/logo"
@@ -65,7 +63,6 @@
         </EditText>
 
         <TextView
-            android:id="@+id/forgotPassword"
             android:layout_gravity="end"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -77,7 +74,6 @@
         </TextView>
 
         <Button
-            android:id="@+id/login"
             android:layout_width="match_parent"
             android:background="@color/colorPrimary"
             android:layout_height="wrap_content"
@@ -111,8 +107,6 @@
         </TextView>
 
         <TextView
-            android:id="@+id/signUp"
-            android:textColor="@color/colorPrimary"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/sign_up"
@@ -122,6 +116,5 @@
         </TextView>
 
     </LinearLayout>
-
 
 </androidx.constraintlayout.widget.ConstraintLayout>

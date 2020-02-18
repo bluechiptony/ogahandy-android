@@ -1,13 +1,23 @@
 <resources>
     <string name="app_name">Oga Handy</string>
-    <string name="login">login</string>
-    <string name="email_address">email address</string>
-    <string name="login_prompt">enter your login credentials</string>
-    <string name="dont_account">don\'t have an account? </string>
-    <string name="sign_up">sign up</string>
-    <string name="password">password</string>
-    <string name="recover_password">recover password</string>
-    <string name="forgot_password">forgot password</string>
-    <string name="request_artisan">Request a handyman</string>
+    <string name="login">Login</string>
+    <string name="email_address">Email address</string>
+    <string name="login_prompt">Enter your login credentials</string>
+    <string name="dont_account">Don\'t have an account ? </string>
+    <string name="sign_up">Sign up</string>
+    <string name="create_account">Create an account with us</string>
+    <string name="dont_need">Don\'t need this now ? </string>
+    <string name="password">Password</string>
+    <string name="phone_number">Phone number</string>
+    <string name="go_back">Go back</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="recover_password">Recover password</string>
+    <string name="forgot_password">Forgot password ?</string>
+    <string name="request_artisan">Request a Handyman</string>
     <string name="my_jobs">My jobs</string>
+    <string name="activate_account">Activate your Account</string>
+    <string name="activate_account_instruction">You should receive an SMS shortly, Please enter the code provided in the text prompt to complete activation</string>
+    <string name="forgot_instruction">Sorry you may have forgotten your password. Please enter your phone number so we can help you out</string>
+    <string name="create_instruction">Please provide us with a few details to help us create your account</string>
+<!--    <string name="my_jobs">My jobs</string>-->
 </resources>
