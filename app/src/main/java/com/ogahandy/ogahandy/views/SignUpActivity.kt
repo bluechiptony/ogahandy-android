@@ -1,12 +1,13 @@
-package com.ogahandy.ogahandy
+package com.ogahandy.ogahandy.views
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.ogahandy.ogahandy.R
 
-class MainActivity : AppCompatActivity() {
+class SignUpActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
+        setContentView(R.layout.activity_sign_up)
     }
 }

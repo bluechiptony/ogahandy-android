@@ -1,3 +1,13 @@
 <resources>
     <string name="app_name">Oga Handy</string>
+    <string name="login">login</string>
+    <string name="email_address">email address</string>
+    <string name="login_prompt">enter your login credentials</string>
+    <string name="dont_account">don\'t have an account? </string>
+    <string name="sign_up">sign up</string>
+    <string name="password">password</string>
+    <string name="recover_password">recover password</string>
+    <string name="forgot_password">forgot password</string>
+    <string name="request_artisan">Request a handyman</string>
+    <string name="my_jobs">My jobs</string>
 </resources>
