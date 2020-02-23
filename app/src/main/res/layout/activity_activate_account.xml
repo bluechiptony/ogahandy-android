@@ -28,6 +28,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         android:text="@string/activate_account"
+        android:fontFamily="@font/poppins_bold"
         android:layout_marginTop="20dp"
         >
 
@@ -40,6 +41,7 @@
         app:layout_constraintTop_toBottomOf="@+id/activate_prompt"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        android:fontFamily="@font/poppins_light"
         android:text="@string/activate_account_instruction"
         android:layout_marginTop="20dp"
         >
@@ -55,6 +57,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         android:text="@string/resend_activation"
+        android:fontFamily="@font/poppins_bold"
         android:layout_marginTop="10dp"
         >
 
@@ -71,7 +74,8 @@
         <EditText
             android:id="@+id/activationCode"
             android:inputType="text"
-
+            android:fontFamily="@font/poppins_regular"
+            android:textSize="16sp"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:hint="@string/activation_code"
@@ -86,6 +90,7 @@
             android:background="@color/colorPrimary"
             android:layout_height="wrap_content"
             android:text="@string/activate_account"
+            android:fontFamily="@font/poppins_bold"
             android:textColor="@color/white"
             android:textAllCaps="true"
             android:layout_marginTop="30dp"
@@ -109,6 +114,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/dont_need"
+            android:fontFamily="@font/poppins_regular"
             android:layout_marginEnd="10dp"
             >
 
@@ -118,6 +124,7 @@
             android:id="@+id/goBack"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:fontFamily="@font/poppins_regular"
             android:text="@string/go_back"
 
             >

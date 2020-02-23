@@ -43,6 +43,7 @@ class LoginActivity : AppCompatActivity() {
         forgotPassword = findViewById(R.id.forgotPassword)
         signUp = findViewById(R.id.signUp)
 
+        loginButton!!.setOnClickListener { changeActivity(Dashboard()) }
         forgotPassword!!.setOnClickListener{
             changeActivity(RecoverPasswordActivity())
         }

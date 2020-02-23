@@ -30,6 +30,7 @@
         app:layout_constraintTop_toBottomOf="@+id/logo"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        android:fontFamily="@font/poppins_bold"
         android:text="@string/create_account"
         android:layout_marginTop="20dp"
         >
@@ -43,6 +44,7 @@
         app:layout_constraintTop_toBottomOf="@+id/sign_up"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        android:fontFamily="@font/poppins_light"
         android:text="@string/create_instruction"
         android:layout_marginTop="20dp"
         >
@@ -64,6 +66,8 @@
 
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+            android:fontFamily="@font/poppins_regular"
+            android:textSize="16sp"
             android:hint="@string/full_name"
             android:layout_marginBottom="10dp"
 
@@ -72,7 +76,8 @@
         <EditText
             android:id="@+id/emailAddress"
             android:inputType="textEmailAddress"
-
+            android:fontFamily="@font/poppins_regular"
+            android:textSize="16sp"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:hint="@string/email_address"
@@ -83,6 +88,8 @@
         <EditText
             android:id="@+id/phoneNumber"
             android:inputType="phone"
+            android:fontFamily="@font/poppins_regular"
+            android:textSize="16sp"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:hint="@string/phone_number"
@@ -97,6 +104,7 @@
             android:layout_width="match_parent"
             android:background="@color/colorPrimary"
             android:layout_height="wrap_content"
+            android:fontFamily="@font/poppins_bold"
             android:text="@string/sign_up"
             android:textColor="@color/white"
             android:textAllCaps="true"
@@ -121,6 +129,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/dont_need"
+            android:fontFamily="@font/poppins_regular"
             android:layout_marginEnd="10dp"
             >
 
@@ -130,6 +139,7 @@
             android:id="@+id/goBack"
             android:textColor="@color/grayText"
             android:layout_width="wrap_content"
+            android:fontFamily="@font/poppins_regular"
             android:layout_height="wrap_content"
             android:text="@string/go_back"
 

@@ -17,10 +17,12 @@
     <string name="forgot_password">Forgot password ?</string>
     <string name="request_artisan">Request a Handyman</string>
     <string name="resend_activation">Resend activation code</string>
+    <string name="welcome_greeting">Good day, James</string>
+    <string name="what_are">What service do you need</string>
     <string name="my_jobs">My jobs</string>
     <string name="activate_account">Activate your Account</string>
     <string name="activate_account_instruction">You should receive an SMS shortly, Please enter the code provided in the text prompt to complete activation</string>
     <string name="forgot_instruction">Sorry you may have forgotten your password. Please enter your phone number so we can help you out</string>
     <string name="create_instruction">Please provide us with a few details to help us create your account</string>
-<!--    <string name="my_jobs">My jobs</string>-->
+    <!--    <string name="my_jobs">My jobs</string>-->
 </resources>
